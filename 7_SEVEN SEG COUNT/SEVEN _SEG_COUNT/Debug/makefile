@@ -63,8 +63,8 @@ all: main-build
 main-build: SEVEN\ _SEG_COUNT.elf secondary-outputs
 
 # Tool invocations
-SEVEN\ _SEG_COUNT.elf SEVEN\ _SEG_COUNT.map: $(OBJS) $(USER_OBJS) C:\Users\R.S.Sunder\STM32CubeIDE\workspace_1.15.1\SEVEN\ _SEG_COUNT\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "SEVEN _SEG_COUNT.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\R.S.Sunder\STM32CubeIDE\workspace_1.15.1\SEVEN _SEG_COUNT\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SEVEN _SEG_COUNT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SEVEN\ _SEG_COUNT.elf SEVEN\ _SEG_COUNT.map: $(OBJS) $(USER_OBJS) C:\Users\R.S.Sunder\Desktop\stm32\PRACTICE_WORKS\7_SEVEN\ SEG\ COUNT\SEVEN\ _SEG_COUNT\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SEVEN _SEG_COUNT.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\R.S.Sunder\Desktop\stm32\PRACTICE_WORKS\7_SEVEN SEG COUNT\SEVEN _SEG_COUNT\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SEVEN _SEG_COUNT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

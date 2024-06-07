@@ -63,8 +63,8 @@ all: main-build
 main-build: BUTTON_LED.elf secondary-outputs
 
 # Tool invocations
-BUTTON_LED.elf BUTTON_LED.map: $(OBJS) $(USER_OBJS) C:\Users\R.S.Sunder\STM32CubeIDE\workspace_1.15.1\BUTTON_LED\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BUTTON_LED.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\R.S.Sunder\STM32CubeIDE\workspace_1.15.1\BUTTON_LED\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BUTTON_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BUTTON_LED.elf BUTTON_LED.map: $(OBJS) $(USER_OBJS) C:\Users\R.S.Sunder\Desktop\stm32\PRACTICE_WORKS\5_BTN\ LED\ ON-OFF\BUTTON_LED\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BUTTON_LED.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\R.S.Sunder\Desktop\stm32\PRACTICE_WORKS\5_BTN LED ON-OFF\BUTTON_LED\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BUTTON_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

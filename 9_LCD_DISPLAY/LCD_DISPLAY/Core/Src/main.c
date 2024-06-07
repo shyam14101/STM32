@@ -102,23 +102,24 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
+uint8_t a = 0;
 lcdSetup(GPIOA, GPIO_PIN_8, GPIO_PIN_9, GPIO_PIN_0, GPIO_PIN_1, GPIO_PIN_2, GPIO_PIN_3, GPIO_PIN_4, GPIO_PIN_5, GPIO_PIN_6, GPIO_PIN_7);
 lcdinit();
-lcdChar('E');
-lcdChar('M');
-lcdChar('C');
-lcdChar('O');
-lcdChar('G');
-lcdChar(' ');
-lcdChar('S');
-lcdChar('O');
-lcdChar('L');
-lcdChar('U');
-lcdChar('T');
-lcdChar('I');
-lcdChar('O');
-lcdChar('N');
+//lcdChar('E');
+//lcdChar('M');
+//lcdChar('C');
+//lcdChar('O');
+//lcdChar('G');
+//lcdChar(' ');
+//lcdChar('S');
+//lcdChar('O');
+//lcdChar('L');
+//lcdChar('U');
+//lcdChar('T');
+//lcdChar('I');
+//lcdChar('O');
+//lcdChar('N');
+lcdChar(a+48);
   while (1)
   {
 
