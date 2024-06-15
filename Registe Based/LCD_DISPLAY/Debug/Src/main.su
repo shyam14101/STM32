@@ -1,0 +1,7 @@
+../Src/main.c:25:5:main	48	static
+../Src/main.c:59:6:lcdSetup	24	static
+../Src/main.c:76:6:LCD_Init	16	static
+../Src/main.c:131:6:LCD_SendCommand	24	static
+../Src/main.c:148:6:LCD_SendData	24	static
+../Src/main.c:165:6:LCD_Enable	8	static
+../Src/main.c:175:6:Delay_ms	24	static

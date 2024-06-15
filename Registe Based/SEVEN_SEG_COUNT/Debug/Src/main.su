@@ -1,0 +1,4 @@
+../Src/main.c:26:5:main	16	static
+../Src/main.c:76:6:Delay_ms	24	static
+../Src/main.c:82:9:read_btn_state	16	static
+../Src/main.c:89:6:count	16	static

@@ -1,0 +1,8 @@
+../Src/main.c:35:5:main	16	static
+../Src/main.c:85:6:lcdInit	16	static
+../Src/main.c:122:6:lcdPrint	24	static
+../Src/main.c:138:6:lcdCommand	24	static
+../Src/main.c:153:6:lcdEnable	8	static
+../Src/main.c:162:6:btnInit	4	static
+../Src/main.c:188:9:read_btnstate	16	static
+../Src/main.c:195:6:Delay	24	static

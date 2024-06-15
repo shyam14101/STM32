@@ -1,0 +1,7 @@
+../Src/main.c:25:5:main	1
+../Src/main.c:59:6:lcdSetup	1
+../Src/main.c:76:6:LCD_Init	5
+../Src/main.c:131:6:LCD_SendCommand	3
+../Src/main.c:148:6:LCD_SendData	3
+../Src/main.c:165:6:LCD_Enable	1
+../Src/main.c:175:6:Delay_ms	2

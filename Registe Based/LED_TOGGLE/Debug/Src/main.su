@@ -1,0 +1,2 @@
+../Src/main.c:8:5:main	16	static
+../Src/main.c:32:6:GpioInit	4	static
